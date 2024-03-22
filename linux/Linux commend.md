@@ -1,3 +1,4 @@
+```
 pwd - current path.
 ls - list path.
 mkdir new folder - folder creation
