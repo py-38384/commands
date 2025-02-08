@@ -80,3 +80,12 @@ docker compose down
 ```
 docker compose up -d
 ```
+
+
+**Docker run  a container with name**
+
+```
+docker run -it --name my_container busybox
+```
+
+
