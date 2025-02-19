@@ -13,3 +13,8 @@ ps -a (show all possessing in details)
 kill 2557 (kill a possessing with Possess ID)
 sudo su (be regular user to root user)
 apt install vim (example of installing a software)
+Commend To Refresh Application Menu list: update-desktop-database ~/.local/share/applications
+Giveing A File Executeing Permission: chmod +x your_file_name.run
+Run The Executeable file: sudo ./your_file_name.run
+Xampp Commands: sudo /opt/lampp/lampp start, stop, restart, startapache, tartmysql
+Recursively delete a directory and its files: rm -rf directory/
