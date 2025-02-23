@@ -31,6 +31,10 @@ php artisan make:view <folder_name>.<view_name>
 ```
 php artisan storage:link
 ```
+**Create A Laravel Project With Specific Version**
+```
+laravel new my-project --version="10.*"
+```
 
 ----
 ### To connect postgres DB from artisan
