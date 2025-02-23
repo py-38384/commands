@@ -33,7 +33,7 @@ php artisan storage:link
 ```
 **Create A Laravel Project With Specific Version**
 ```
-laravel new my-project --version="10.*"
+composer create-project --prefer-dist laravel/laravel my-project "10.*"
 ```
 
 ----
