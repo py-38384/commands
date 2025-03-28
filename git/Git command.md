@@ -12,7 +12,7 @@ Creating agent file
 
 Creating agent file (for windows)
 
-    ssh-add C:\Users\MSI\.ssh\id_rsa
+    ssh-add C:\Users\[Your-Username]\.ssh\id_rsa
 
 Opening agent file
 
