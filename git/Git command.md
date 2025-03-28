@@ -10,6 +10,10 @@ Creating agent file
 
     touch ~/.ssh/config
 
+Creating agent file (for windows)
+
+    ssh-add C:\Users\MSI\.ssh\id_rsa
+
 Opening agent file
 
     nano ~/.ssh/config
