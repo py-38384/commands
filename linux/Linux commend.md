@@ -18,3 +18,7 @@ Giveing A File Executeing Permission: chmod +x your_file_name.run
 Run The Executeable file: sudo ./your_file_name.run
 Xampp Commands: sudo /opt/lampp/lampp start, stop, restart, startapache, startmysql
 Recursively delete a directory and its files: rm -rf directory/
+
+current path
+
+     pwd
