@@ -56,3 +56,30 @@ Alt + SysRq + U
 Alt + SysRq + B
 
 ```
+
+b - Reboot - Immediately reboots the system without syncing or unmounting
+c - Crash - Forces a kernel panic (for crash dump testing)
+d - Show locks - Dumps kernel locks held by tasks
+e - Terminate - Sends SIGTERM to all processes except init
+f - OOM-Killer - Forces the out-of-memory killer to run
+g - Unused - No function assigned
+h - Help - Prints SysRq help to the kernel log
+i - Kill - Sends SIGKILL to all processes except init
+j - Thaw - Thaws frozen processes (freezer/ftrace)
+k - Kill TTY - Kills all processes on the current virtual terminal
+l - Show backtrace - Dumps stack traces of all active CPUs
+m - Memory info - Dumps memory info to logs (like /proc/meminfo)
+n - Reset nice - Resets all process priorities (nice value to 0)
+o - Power off - Powers off the machine (if supported)
+p - Show registers - Dumps CPU registers to logs
+q - Show Qdisc - Dumps network queue information
+r - Keyboard raw mode - Switches keyboard from X to raw mode
+s - Sync - Flushes all disk caches to disk
+t - Show tasks - Shows all running processes (process table)
+u - Unmount - Remounts all filesystems read-only
+v - Show virtual memory - Dumps virtual memory info
+w - Show blocked tasks - Lists tasks stuck in uninterruptible sleep
+x - Show interrupts - Dumps interrupt info
+y - Show CPU core data - Dumps per-CPU core details
+z - Show pagetable - Dumps current pagetable info
+
