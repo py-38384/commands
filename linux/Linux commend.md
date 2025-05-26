@@ -57,6 +57,9 @@ Alt + SysRq + B
 
 ```
 
+### SysRq Commands ###
+
+```
 b - Reboot - Immediately reboots the system without syncing or unmounting
 c - Crash - Forces a kernel panic (for crash dump testing)
 d - Show locks - Dumps kernel locks held by tasks
@@ -82,4 +85,4 @@ w - Show blocked tasks - Lists tasks stuck in uninterruptible sleep
 x - Show interrupts - Dumps interrupt info
 y - Show CPU core data - Dumps per-CPU core details
 z - Show pagetable - Dumps current pagetable info
-
+```
