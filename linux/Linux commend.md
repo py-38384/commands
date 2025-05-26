@@ -39,3 +39,20 @@ history
 ```
 ls -R
 ```
+
+##Enable the Magic SysRq Key##
+```
+echo 'kernel.sysrq=1' | sudo tee /etc/sysctl.d/99-sysrq.conf
+sudo sysctl -p /etc/sysctl.d/99-sysrq.conf
+```
+
+###Emergency REISUB Reboot (Safe Kernel Reboot)###
+```
+Alt + SysRq + R
+Alt + SysRq + E
+Alt + SysRq + I
+Alt + SysRq + S
+Alt + SysRq + U
+Alt + SysRq + B
+
+```
