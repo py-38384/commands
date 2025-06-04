@@ -86,3 +86,10 @@ x - Show interrupts - Dumps interrupt info
 y - Show CPU core data - Dumps per-CPU core details
 z - Show pagetable - Dumps current pagetable info
 ```
+
+###Enable USB File Transfer for linux###
+
+```
+sudo apt update
+sudo apt install mtp-tools gvfs-backends gvfs-fuse
+```
