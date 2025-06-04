@@ -87,7 +87,7 @@ y - Show CPU core data - Dumps per-CPU core details
 z - Show pagetable - Dumps current pagetable info
 ```
 
-###Enable USB File Transfer for linux###
+### Enable USB File Transfer for linux ###
 
 ```
 sudo apt update
