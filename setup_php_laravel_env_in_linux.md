@@ -38,7 +38,7 @@ Enable PHP Mysqli
 
     sudo phpenmod mysqli
 
-Add Authentication To The PhpMyAdmin Config File For Enableing Auto Login
+Add Authentication To The PhpMyAdmin Config (config.inc.php) File For Enableing Auto Login
 
     /* Authentication type */
     $cfg['Servers'][$i]['auth_type'] = 'config';
