@@ -66,6 +66,14 @@ Update remote
 
     git push origin master
 
+Force push to remote -- may rewrite history
+
+    git push -f
+
+Force push only if noone has pushed since i last pushed
+
+    git push --force-with-lease
+
 Commit
 
     git commit -m "commit message"
