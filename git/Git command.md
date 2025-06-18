@@ -46,6 +46,14 @@ File Hard reset
 
     git reset --hard
 
+Go back to a commit and delete every commit after that
+
+    git reset --hard <commit-id>
+
+Undo a commit by creating a new commit -- keep the history of that old commit
+
+    git revert <commit-id>
+
 File recover
 
     git checkout filename
@@ -109,6 +117,10 @@ Git show all Branch
 Git merge
 
     git merge branchName
+
+Git pull and rebase (keep straight timeline) 
+
+    git pull --rebase
 
 Git show branch with small detail
 
