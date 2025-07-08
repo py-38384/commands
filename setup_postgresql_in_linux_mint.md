@@ -48,8 +48,8 @@ Setup postgresql database form laravel app in .env file
     DB_USERNAME=root_user
     DB_PASSWORD=superstrongpassword
 
-If you want a database management softwere you can you "DBeaver"
-The best free database management softwere
+If you want a database management softwere you can you "DBeaver".
+The best free database management softwere.
 make sure to download the community version
 
 
